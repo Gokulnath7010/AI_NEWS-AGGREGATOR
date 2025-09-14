@@ -1,0 +1,9 @@
+Flask
+requests
+beautifulsoup4
+lxml
+feedparser
+vaderSentiment
+SQLAlchemy
+pymysql         # MySQL driver (if using MySQL)
+python-dotenv
