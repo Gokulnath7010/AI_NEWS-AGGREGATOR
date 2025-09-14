@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI News Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>AI News Aggregator — Dashboard</h1>
+  </header>
+
+  <main class="container">
+    <section class="row">
+      <div class="card">
+        <h3>Sentiment distribution</h3>
+        <canvas id="sentimentChart"></canvas>
+      </div>
+      <div class="card">
+        <h3>Articles over time</h3>
+        <canvas id="trendChart"></canvas>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="card wide">
+        <h3>Recent articles</h3>
+        <ul id="recentList"></ul>
+      </div>
+
+      <div class="card">
+        <h3>Top articles (by sentiment score)</h3>
+        <table id="topTable">
+          <thead><tr><th>Title</th><th>Pub</th><th>Score</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Built for AI internship task</small>
+  </footer>
+
+  <script src="/static/dashboard.js"></script>
+</body>
+</html>
