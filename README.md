@@ -64,4 +64,4 @@ Now open 👉 http://127.0.0.1:5000
 
 👉 Once you fill in your two links and push this README, your project will be **100% ready for submission**.  
 
-Do you want me to also write a **short email template** you can send to `hr@neubaitics.com` with these links?
+Do you want me to also request your project and can send to `msdgokulnath007@gmail.com` with these mailid?
